@@ -2,10 +2,10 @@ import os
 import datetime
 from shutil import rmtree
 
-
+path = ''#put your project directory here
 def main():
 	'''Main control function'''
-	os.chdir('/home/simcha605/WebDev-2020/py/journal')
+	os.chdir(path)
 
 	print('\n'*20)
 	print('JOURNAL TIME')
